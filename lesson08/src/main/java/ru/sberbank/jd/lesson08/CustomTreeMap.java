@@ -59,13 +59,11 @@ public interface CustomTreeMap<K, V> {
 
     /**
      * Get all keys.
-     * Get content in format '[ key1, ..., keyN ] or [ ] if empty.
      */
     Object[] keys();
 
     /**
      * Get all values.
-     * Get content in format '[ value1, ..., valueN ] or [ ] if empty.
      */
     Object[] values();
 }
