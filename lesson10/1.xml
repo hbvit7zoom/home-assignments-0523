@@ -1,0 +1,8 @@
+<person>
+    <lastName>Пушкин</lastName>
+    <NAME>Александр</NAME>
+    <books>
+        <book title="Руслан и Людмила"/>
+        <book title="Евгений Онегин"/>
+    </books>
+</person>

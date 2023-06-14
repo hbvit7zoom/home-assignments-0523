@@ -11,6 +11,25 @@
 
     <artifactId>lesson10</artifactId>
 
+    <properties>
+        <jackson.version>2.15.1</jackson.version>
+    </properties>
+
+   <dependencies>
+<!--       com.fasterxml.jackson.core:jackson-databind:2.13.1-->
+<!--       com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.1-->
+       <dependency>
+           <groupId>com.fasterxml.jackson.core</groupId>
+           <artifactId>jackson-databind</artifactId>
+           <version>${jackson.version}</version>
+       </dependency>
+       <dependency>
+           <groupId>com.fasterxml.jackson.dataformat</groupId>
+           <artifactId>jackson-dataformat-xml</artifactId>
+           <version>${jackson.version}</version>
+       </dependency>
+   </dependencies>
+
     <build>
         <plugins>
             <plugin>
