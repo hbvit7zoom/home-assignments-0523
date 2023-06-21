@@ -6,7 +6,7 @@ package ru.sberbank.jd.lesson08;
 public interface CustomTreeMap<K, V> {
 
     /**
-     *  Get ize of map.
+     *  Get size of map.
      *
      * @return - size of map
      */
