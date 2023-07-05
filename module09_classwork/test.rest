@@ -1,0 +1,7 @@
+http://localhost:8080/module09_war_exploded/calc?param1=1&param2=2
+
+###
+http://localhost:8080/module09_war_exploded/calc?param1=1
+
+###
+http://localhost:8080/module09_war_exploded/result?id=8df48b8c-c960-41eb-8c97-43e88b055cf6
