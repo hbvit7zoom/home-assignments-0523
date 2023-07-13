@@ -1,0 +1,10 @@
+app.prop1: 12
+app.prop2: 24
+
+app:
+  firstValue: "Hello, World!"
+  database:
+    databaseUrl: { DATABASE_URL }
+
+server:
+  port: 8081
