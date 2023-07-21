@@ -1,0 +1,14 @@
+PUT http://localhost:8080/task
+Content-Type: application/json;charset=UTF-8
+
+{
+    "summary": "input summary",
+    "description": "input description",
+    "owner": "Vasya"
+}
+###
+GET http://localhost:8080/task
+user: {{user}}
+
+###
+GET http://localhost:8080/task/{{id}}
