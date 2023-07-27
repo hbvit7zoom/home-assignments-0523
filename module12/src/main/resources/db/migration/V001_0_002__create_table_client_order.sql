@@ -1,0 +1,1 @@
+create table client_order (id varchar not null, client_id varchar, primary key (id))

@@ -1,0 +1,8 @@
+Hibernate: create table client (id bigint not null, primary key (id))
+Hibernate: create table client_order (id bigint not null, client_id bigint, primary key (id))
+Hibernate: create table item (id bigint not null, article varchar(255), name varchar(255), order_id bigint, primary key (id))
+Hibernate: create sequence client_order_seq start with 1 increment by 50
+Hibernate: create sequence client_seq start with 1 increment by 50
+Hibernate: create sequence item_seq start with 1 increment by 50
+Hibernate: alter table if exists client_order add constraint FKcggjtc9f3otuprl7takbttwuk foreign key (client_id) references client
+Hibernate: alter table if exists item add constraint FKqupdtu795q3tl1s4rgppvlqhy foreign key (order_id) references client_order

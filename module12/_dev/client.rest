@@ -1,0 +1,10 @@
+POST http://localhost:8080/item
+Content-Type: application/json;charset=UTF-8
+
+{
+"article": "00001",
+"name": "Snickers Nike"
+}
+
+###
+GET http://localhost:8080/item?name=Snickers Nike

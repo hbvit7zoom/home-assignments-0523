@@ -1,0 +1,1 @@
+create table client (id varchar not null, primary key (id))

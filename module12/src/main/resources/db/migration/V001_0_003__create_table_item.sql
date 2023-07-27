@@ -1,0 +1,1 @@
+create table item (id varchar not null, article varchar(255), name varchar(255), order_id varchar, primary key (id))
