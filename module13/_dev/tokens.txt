@@ -1,0 +1,5 @@
+{
+  "type": "Bearer",
+  "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtLml2YW5vdmEiLCJleHAiOjE2OTA5OTk2MzAsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwicHJpdmlsZWdlcyI6WyJERUxFVEVfVVNFUiIsIlJFQURfVVNFUiIsIldSSVRFX1VTRVIiXSwiZnVsbE5hbWUiOiJNYXJpYSBJdmFub3ZhIn0.NTBKO9gHldn0qx2Q4oUGFIVx6xP7OZpJjidxmQpX8-pv5QizpXF1ZJ_PEoMz7DX_F8qZ7aW40mq5J_--YByhvA",
+  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtLml2YW5vdmEiLCJleHAiOjE2OTM1OTEzMzB9.bb4u0oBlymCuSy1SqMy6aKvalmUr2ZsBVqb_1It49SgcVx4a0D9Tc5hkojDyTPuJiZtRVYFidayVuUTYcudbhw"
+}

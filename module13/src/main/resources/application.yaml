@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:auth
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate.jdbc.time_zone: UTC
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+jwt:
+  secret:
+    access: OLJuee9a1+n3ONAd8Rdbl2Y1BoDMAZd8eW8vI0IKHS273AQ0LqtpZw5rLRb3NsGzj7OFhSe/S4GneungbqWGgw==
+    refresh: z96L8mzalHF69OTHX0hiUZVH9+8cUUm+QRLRaqUig08uJRbL69TVsMHcRL/hWqvJ8PToPOoAbTPImZOGZIDpZA==
+
+logging:
+  level:
+    root: info

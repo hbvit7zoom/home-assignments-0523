@@ -1,0 +1,26 @@
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json;charset=UTF8
+
+{
+"username": "p.kamishev",
+"password": "1234"
+}
+
+###
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json;charset=UTF8
+
+{
+  "username": "m.ivanova",
+  "password": "1234"
+}
+
+###
+GET http://localhost:8080/api/hello/admin
+Content-Type: application/json;charset=UTF8
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtLml2YW5vdmEiLCJleHAiOjE2OTEwMDI0OTksInJvbGVzIjpbIlJPTEVfQURNSU4iXSwicHJpdmlsZWdlcyI6WyJSRUFEX1VTRVIiLCJERUxFVEVfVVNFUiIsIldSSVRFX1VTRVIiXSwiZnVsbE5hbWUiOiJNYXJpYSBJdmFub3ZhIn0.4L6IfzdkBfhTnTpmIRHb0-bLzBzQIYx5NyhTIJilGwD9R3pFYiK02AQnjuetADj1T5bB4WWFtcyknj_rgzUGtQ
+
+###
+GET http://localhost:8080/api/hello/user
+Content-Type: application/json;charset=UTF8
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtLml2YW5vdmEiLCJleHAiOjE2OTEwMDI0OTksInJvbGVzIjpbIlJPTEVfQURNSU4iXSwicHJpdmlsZWdlcyI6WyJSRUFEX1VTRVIiLCJERUxFVEVfVVNFUiIsIldSSVRFX1VTRVIiXSwiZnVsbE5hbWUiOiJNYXJpYSBJdmFub3ZhIn0.4L6IfzdkBfhTnTpmIRHb0-bLzBzQIYx5NyhTIJilGwD9R3pFYiK02AQnjuetADj1T5bB4WWFtcyknj_rgzUGtQ
