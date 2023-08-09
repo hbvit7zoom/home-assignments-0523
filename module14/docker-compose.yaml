@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  inventory-service:
+#    image: inventory-service:latest
+#    build: m14-inventory-service
+    build:
+      context: m14-inventory-service
+      dockerfile: Dockerfile
+    ports:
+      - '8081:8080'
+
+  order-service:
+    build:
+      context: m14-order-service
+      dockerfile: Dockerfile
+    ports:
+      - '8082:8080'
